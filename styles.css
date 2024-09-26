@@ -1,0 +1,104 @@
+body {
+  padding: 0 150px;
+  background-color: dimgray;
+  background-image: url(./img/background.jpg);
+}
+header {
+  padding: 10px 36px;
+  background-color: #f5deb399;
+  border: 4px solid rgba(0, 0, 0, 0.447);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 32px;
+  margin: 0;
+}
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+}
+input {
+  padding-inline: 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.447);
+}
+button {
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.447);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  height: 30px;
+}
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.containerInput {
+  height: 50px;
+  display: flex;
+  background-color: #f5deb399;
+  border: 4px solid rgba(0, 0, 0, 0.447);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 36px;
+  border-radius: 10px;
+}
+.boxInput {
+  gap: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 25px;
+}
+.textCard {
+  border: 4px solid rgba(0, 0, 0, 0.447);
+  background-color: wheat;
+  border-radius: 16px;
+  padding: 10px 32px;
+}
+.logo {
+  height: 50px;
+  border-radius: 50%;
+}
+
+#heroesContainer {
+  border-radius: 10px;
+  border: 4px solid rgba(0, 0, 0, 0.447);
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  background-color: #f0ffffb5;
+  flex: 1;
+  padding: 20px 36px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+#heroesContainer img {
+  width: 350px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+#addButton {
+  margin-left: 20px;
+}
